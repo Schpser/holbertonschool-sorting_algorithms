@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include sort.h
+#include "sort.h"
 
 /**
  * main - Entry point
@@ -13,9 +13,9 @@ int main(void)
     size_t n = sizeof(array) / sizeof(array[0]);
 
     print_array(array, n);
-    printf(n);
+    printf("\n");
     quick_sort(array, n);
-    printf(n);
+    printf("\n");
     print_array(array, n);
     return (0);
 }
